@@ -5,7 +5,7 @@ set -e  # stop if any command fails
 pip install -e .
 
 # clean up old data
-rm -rf pympebm/test/my_data
+rm -rf pyjpm/test/my_data
 
 # run generator from root
-python3 pympebm/test/gen.py
+python3 pyjpm/test/gen.py
